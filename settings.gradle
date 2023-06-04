@@ -1,0 +1,4 @@
+rootProject.name = 'introduction-to-programing'
+include 'lesson1'
+include 'lesson2'
+
