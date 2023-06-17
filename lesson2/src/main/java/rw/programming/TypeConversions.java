@@ -1,3 +1,5 @@
+package rw.programming;
+
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
@@ -17,12 +19,18 @@ public class TypeConversions {
     input = in.nextLine();
     float f = Float.parseFloat(input);
     System.out.println("Str to float: " + f);
-
     // The students to do the long and the double.
 
     // Introducing the Math library
-    System.out.println(Math.floor(f));
-    System.out.println(Math.nextDown(f));
+    System.out.println("Floor " + Math.floor(f));
+    System.out.println("Ceiling " + Math.ceil(f));
+    System.out.println("Rounding " + Math.round(f));
+
+    System.out.printf("The area of the circle of radius %f is %f %n", f, Math.pow(f, 2) * Math.PI);
+    System.out.printf("The length of the circumference of a circle of radius %f is %f %n", f, 2 * f * Math.PI);
+
+    int num = Integer.parseInt(in.nextLine());
+    System.out.printf("We have to multiply 10 %d times by itself to go over %d %n", (int)Math.log10(num) + 1, num);
 
     // Round up the double.
     // What happen if input a 1000 as the integer and try to compute i^100000
