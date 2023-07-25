@@ -18,6 +18,18 @@ public class Exercise2 {
 
     if (operation == '+') {
       System.out.println(first + second);
+    } else if (operation == '-') {
+      System.out.println(first - second);
+    } else if (operation == '*') {
+      System.out.println(first * second);
+    } else if (operation == '/') {
+      if (second == 0) {
+        System.out.println("Sorry, I can't divide by zero");
+        return;
+      }
+      System.out.println(first / second);
+    } else {
+      System.out.println("Wrong operation");
     }
     // TODO: Complete the code to implement the operations substraction, multiplication and division
   }

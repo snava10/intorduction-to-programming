@@ -7,6 +7,9 @@ public class Exercise1 {
     int n = Integer.parseInt(sc.nextLine());
 
     for (int i = 0; i < n; i++) {
+      if (i % 5 == 0) {
+
+      }
       System.out.println(i);
     }
   }
