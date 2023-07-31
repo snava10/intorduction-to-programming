@@ -47,7 +47,12 @@ public class Exercise3 {
         // Hint make use of the foreach loop instead of the for loop
 
         // TODO:: bonus, print them in alphabetical order. Hint: use the sort method of the list, when asked for a comparator use String::compareTo
-        
+
+      } else if (option.equals("d")) {
+        System.out.println("Type the name of the country you want to delete");
+        String country = sc.nextLine();
+        // TODO:: Write the code to delete the country from the list. Take into account that the
+        // country may not be in the list.
       }
 
     }
