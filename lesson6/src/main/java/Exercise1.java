@@ -4,6 +4,10 @@ import java.util.Scanner;
  * A palindrome is a word that reads the same from left to right than from right to left.
  * For example, ana, radar, level, rotor, madam
  * This program asks the user for a word and prints Palindrome if it is a palindrome, Not Palindrome otherwise.
+ *
+ * This exercises is aimed at students working with Strings and while loops.
+ * They will learn how to treat strings as arrays, getting its length and accessing characters at specific positions.
+ * It also showcases the ability of breaking down a complex problem into smaller, easier ones.
  */
 public class Exercise1 {
 

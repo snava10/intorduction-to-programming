@@ -2,7 +2,9 @@ import java.util.Scanner;
 
 /**
  * This program asks the user to enter a list of numbers, stores them in an array of int
+ * Then finds the maximum, minimum and the sum of all numbers.
  *
+ * The students will practice creating and manipulating arrays and the use of for loops.
  */
 public class Exercise2 {
 
