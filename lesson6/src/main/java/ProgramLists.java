@@ -14,5 +14,10 @@ public class ProgramLists {
     for (int i = 0; i < list.size(); i++) {
       System.out.println(list.get(i));
     }
+
+    System.out.println("The " + list.size() + " nations of the United Kingdom are:");
+    for (String nation: list) {
+      System.out.println(nation);
+    }
   }
 }
